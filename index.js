@@ -1,3 +1,5 @@
+import './assets/css/style.css';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';

@@ -3,9 +3,8 @@ import MAppBar from 'material-ui/AppBar';
 
 const AppBar = () => (
   <MAppBar
-    title="Title"
-    iconClassNameRight="muidocs-icon-navigation-expand-more"
-  />
+    title="Loginet"
+    className="app-bar">TEST</MAppBar>
 );
 
 export default AppBar;
