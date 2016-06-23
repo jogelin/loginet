@@ -2,11 +2,12 @@ import React from 'react';
 
 const Header = () => {
   return (
-    <header className="header">
+    <section className="header">
       <div className="container">
         <h1>Titre services</h1>
+        <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       </div>
-    </header>
+    </section>
   );
 };
 

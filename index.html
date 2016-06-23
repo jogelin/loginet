@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-		<title>Loginet</title>
+		<title>Crac boum boum</title>
 
 
 	</head>
@@ -12,6 +12,25 @@
 	<body>
 		<div id="app"></div>
 		<script src="dist/index.js"></script>
+    <script>
+      var nav = document.querySelector('nav');
+      function navScroll(){
+        var className = 'transparent';
+        var top = window.scrollY ? window.scrollY : document.documentElement.scrollTop;
+        if (top > 0) {
+          nav.classList.remove(className);
+          [].forEach.call(document.querySelectorAll('[data-src]'), function(iframe){
+            iframe.setAttribute('src', iframe.getAttribute('data-src'));
+            iframe.removeAttribute('data-src');
+          });
+        } else {
+          nav.classList.add('transparent');
+          nav.classList.add(className);
+        }
+      };
+      window.onscroll = navScroll;
+      navScroll();
+      </script>
 	</body>
 
 </html>

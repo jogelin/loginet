@@ -16,6 +16,9 @@ const App = () => (
       <AppBar />
       <Header />
       <Main />
+      <Main />
+      <Main />
+
     </div>
   //</MuiThemeProvider>
 );
