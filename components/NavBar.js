@@ -13,12 +13,13 @@ class NavBar extends React.Component {
         <label for="bmenub" className="burger pseudo button">menu</label>
 
         <div className="menu">
-          <a href="#" className="button">Demo</a>
+          <a href="#">Services</a>
+          <a href="#">Contact</a>
           <a href="#">Plugins</a>
         </div>
-      </nav>    );
+      </nav>
+    );
   }
-
 };
 
 export default NavBar;

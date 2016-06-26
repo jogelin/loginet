@@ -9,16 +9,19 @@ import ReactDOM from 'react-dom';
 import AppBar from './components/NavBar';
 import Header from './components/Header';
 import Main from './components/Main';
+import Service from './components/Service';
+import Description from './components/Description';
+import FootBar from './components/FootBar';
+
 
 const App = () => (
   //<MuiThemeProvider muiTheme={getMuiTheme()}>
     <div>
       <AppBar />
       <Header />
-      <Main />
-      <Main />
-      <Main />
-
+      <Description />
+      <Service />
+      <FootBar />
     </div>
   //</MuiThemeProvider>
 );

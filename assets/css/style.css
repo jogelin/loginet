@@ -2,6 +2,14 @@ body {
   //padding-top: 3em;
 }
 
+nav {
+  background-color: #305FA9;
+}
+
+nav .menu > a {
+  color: #FFFFFF;
+}
+
 nav.transparent {
   background-color: transparent;
   box-shadow: none;
@@ -13,6 +21,21 @@ nav.transparent {
 .header {
   padding-top: 3em;
   background-size: cover;
-  //color: #dddddd;
   background: url('../img/header.jpg') no-repeat center center fixed !important;
+}
+
+.description {
+  background-color: #E7D429;
+  height: 20em;
+}
+
+.service {
+  padding-top: 3em;
+  background-size: cover;
+  background: url('../img/water.jpg') no-repeat center center fixed !important;
+}
+
+.footbar {
+  padding-top: 5em;
+  background-color: #305FA9;
 }
